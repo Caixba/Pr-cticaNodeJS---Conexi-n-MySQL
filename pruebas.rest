@@ -1,0 +1,25 @@
+### GET /api/usuarios
+GET http://localhost:8085/api/usuarios
+Content-Type: application/json
+
+### POST /api/usuarios
+POST http://localhost:8085/api/usuarios
+Content-Type: application/json
+
+{
+    "nombre": "Juan Perez",
+    "correo": "juan@example.com",
+}
+
+### PUT /api/usuarios/:id
+PUT http://localhost:{8085}/api/usuarios/1
+Content-Type: application/json
+
+{
+    "nombre": "Juan Actualizado",
+    "correo": "juan_actualizado@example.com"
+}
+
+### DELETE /api/usuarios/:id
+DELETE http://localhost:{8085}/api/usuarios/1
+Content-Type: application/json
